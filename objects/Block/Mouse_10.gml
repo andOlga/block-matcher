@@ -1,3 +1,4 @@
+///@description Check & add to sequence
 if (
 	global.mouse_held
 	&& global.blockseq[0].image_blend == image_blend

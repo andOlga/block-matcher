@@ -1,5 +1,6 @@
 randomise_color = function () {
-	image_blend = choose(
+	current_image_blend = image_blend
+	new_image_blend = choose(
 		c_aqua,
 		c_blue,
 		c_green,
@@ -9,5 +10,7 @@ randomise_color = function () {
 		c_purple,
 		c_yellow
 	)
+	fade_percent = 0
+	alarm[0] = 1
 }
 randomise_color()
