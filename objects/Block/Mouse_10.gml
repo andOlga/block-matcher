@@ -4,7 +4,4 @@ if (
 	&& distance_to_object(global.blockseq[array_length(global.blockseq) - 1]) < 64
 ) {
 	array_push(global.blockseq, id)
-} else {
-	global.blockseq = []
-	global.mouse_held = false
 }
