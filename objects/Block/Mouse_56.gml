@@ -1,5 +1,11 @@
 ///@description End sequence
+if (!global.mouse_held) {
+	return
+}
 global.mouse_held = false
+with (Block) {
+	sprite_index = sBlock
+}
 global.blockseq = array_unique(global.blockseq)
 var block_count = array_length(global.blockseq)
 if (block_count > 1) {
