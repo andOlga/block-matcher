@@ -6,3 +6,4 @@ for (var i = 0; i <= 640; i+= 64) {
 }
 global.blockseq = []
 global.mouse_held = false
+global.score = 0
