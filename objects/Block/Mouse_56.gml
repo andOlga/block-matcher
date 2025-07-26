@@ -1,5 +1,6 @@
 ///@description End sequence
 global.mouse_held = false
+global.blockseq = array_unique(global.blockseq)
 var block_count = array_length(global.blockseq)
 if (block_count > 1) {
 	global.score += block_count
