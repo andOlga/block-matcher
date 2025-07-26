@@ -27,6 +27,7 @@
     {"id":{"name":"Block","path":"objects/Block/Block.yy",},},
     {"id":{"name":"ScoreKeeper","path":"objects/ScoreKeeper/ScoreKeeper.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"InitGlobals","path":"scripts/InitGlobals/InitGlobals.yy",},},
     {"id":{"name":"bloop","path":"sounds/bloop/bloop.yy",},},
     {"id":{"name":"sBlock","path":"sprites/sBlock/sBlock.yy",},},
   ],
