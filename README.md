@@ -1,3 +1,3 @@
 Basic block matcher thingy made in GameMaker.
 
-Playable, but not very fun.
+Playable [here](https://gx.games/games/yldsm0/block-matcher-thingy/).
